@@ -8,6 +8,10 @@ html {
   box-sizing: inherit;
 }
 
+.warn {
+  background: #e33d3a!important;
+}
+
 .logmod {
   display: block;
   position: fixed;
