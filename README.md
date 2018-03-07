@@ -7,7 +7,7 @@
 ![cmd-markdown-logo](http://p57u1eyo1.bkt.clouddn.com/vue-demo.png)
 
 
-## 运行
+## 本地运行
 
 ``` shell
 $ npm run serve
