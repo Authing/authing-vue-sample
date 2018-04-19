@@ -16,19 +16,17 @@
               <form accept-charset="utf-8" action="#" class="simform">
                 <div class="sminputs">
                   <div class="input full">
-                    <label class="string optional" for="user-name">邮箱*</label>
                     <input class="string optional" v-model="registerForm.email" maxlength="255" placeholder="邮箱" type="email" size="50" />
                   </div>
                 </div>
                 <div class="sminputs">
                   <div class="input full">
-                    <label class="string optional" for="user-pw">密码 *</label>
                     <input class="string optional" v-model="registerForm.password" maxlength="255" placeholder="密码" type="password" size="50" />
                   </div>
                 </div>
                 <div class="simform__actions">
                   <input class="sumbit" name="commit" type="sumbit" @click="register" value="立即注册" />
-                  <span class="simform__actions-sidetext">创建账户后默认同意我们的 <br><a class="special" href="#" target="_blank" role="link">隐私协议</a></span>
+                  <!-- <span class="simform__actions-sidetext">创建账户后默认同意我们的 <br><a class="special" href="#" target="_blank" role="link">隐私协议</a></span> -->
                 </div> 
               </form>
             </div> 
@@ -53,13 +51,11 @@
               <form accept-charset="utf-8" action="#" class="simform">
                 <div class="sminputs">
                   <div class="input full">
-                    <label class="string optional" for="user-name">邮箱*</label>
                     <input class="string optional" v-model="loginForm.email" maxlength="255" placeholder="sample@authing.cn" type="email" size="50" />
                   </div>
                 </div>
                 <div class="sminputs">
                   <div class="input full">
-                    <label class="string optional" for="user-pw">密码 *</label>
                     <input class="string optional" v-model="loginForm.password" maxlength="255" placeholder="123456" type="password" size="50" />
                   </div>
                 </div>
@@ -74,7 +70,7 @@
                 </div>                             
                 <div class="simform__actions">
                   <input class="sumbit" name="commit" type="sumbit" @click="login" value="登录" />
-                  <span class="simform__actions-sidetext"><a class="special" role="link" href="#">忘记密码?<br>点击这里</a></span>
+                  <!-- <span class="simform__actions-sidetext"><a class="special" role="link" href="#">忘记密码?<br>点击这里</a></span> -->
                 </div> 
               </form>
             </div> 
