@@ -4,6 +4,7 @@
         <span class="logmod__close">Close</span>
         <div class="logmod__container">
           <ul class="logmod__tabs">
+            <li data-tabtar="lgm-2"><a href="#">小程序扫码登录</a></li>          
             <li data-tabtar="lgm-2"><a href="#">登录</a></li>
             <li data-tabtar="lgm-1"><a href="#">注册</a></li>
           </ul>

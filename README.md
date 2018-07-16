@@ -4,7 +4,7 @@
 
 [demo](http://sample.authing.cn)
 
-![cmd-markdown-logo](http://p57u1eyo1.bkt.clouddn.com/vue-demo.png)
+![cmd-markdown-logo](https://usercontents.authing.cn/vue-demo.png)
 
 
 ## 本地运行
