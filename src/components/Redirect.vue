@@ -38,6 +38,8 @@ export default {
     mounted () {
         let query = this.$route.query;
 
+        console.log(query);
+
         if(!query.code) {
             this.$notify({
               group: 'foo',
