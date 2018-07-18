@@ -165,6 +165,11 @@ export default {
     readOAuthList () {
       this.auth.readOAuthList().then((data) => {
         this.oauthList = data;
+        for (var i = 0; i < this.oauthList.length; i++) {
+          if(this.oauthList[i].name == '小程序扫码登录') {
+            this.oauthList.splice(i, 1);
+          }
+        };
       });
     },
 
