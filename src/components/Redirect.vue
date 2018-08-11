@@ -11,7 +11,7 @@
             </div>
 
             <div class="result-content">
-                <h1>
+                <h1 style="line-height: 2;">
                     {{message}}
                 </h1>
                 <p class="help" style="margin-top: 15px;">
@@ -95,6 +95,18 @@ export default {
 
     .result-content {
         padding: 20px;
+    }
+
+    @media screen and (max-width: 500px) {  
+        h1 {
+            font-size: 1em;
+        }
+
+      
+        .logmod__wrapper {
+            height: 100%;
+            margin: 0px;
+        }
     }
 
 </style>

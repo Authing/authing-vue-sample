@@ -11,7 +11,7 @@
           <div class="logmod__tab-wrapper">
 
           <div class="logmod__tab lgm-0">
-            <div class="logmod__heading" style="height:300px;">
+            <div class="logmod__heading qr-code-header" style="height:300px;">
               <div id="qrcode-node"></div>
             </div>
           </div>
@@ -346,6 +346,27 @@ export default {
 }
 </script>
 
-<style scoped>
+<style>
+
+    @media screen and (max-width: 500px) {  
+
+        .logmod__wrapper {
+            height: 100%;
+            margin: 0px;
+        }
+
+        #qrcode-node {
+            height: calc(100vh - 72px);
+            display: flex;
+            width: 100%;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .qr-code-header {
+            height: 100%!important;
+        }
+
+    }
 
 </style>
