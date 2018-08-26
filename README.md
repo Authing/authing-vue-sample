@@ -2,7 +2,7 @@
 
 在Vue中使用Authing的demo，包含Github登录、帐号密码注册／登录和小程序扫码登录。
 
-[点击体验](http://sample.authing.cn)
+[点击体验](https://sample.authing.cn)
 
 ![cmd-markdown-logo](https://usercontents.authing.cn/authing-demo-login.png)
 
