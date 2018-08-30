@@ -1,6 +1,6 @@
 # authing-vue-sample
 
-在Vue中使用Authing的demo，包含Github登录、帐号密码注册／登录和小程序扫码登录。
+在 Vue 中使用 Authing Login Form 的 demo，包含 Github 登录、帐号密码注册／登录和小程序扫码登录。
 
 [点击体验](https://sample.authing.cn)
 
