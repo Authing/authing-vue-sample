@@ -4,7 +4,7 @@
 
 [点击体验](https://sample.authing.cn)
 
-![login-form](https://cdn.authing.cn/sdk/guide/image/login-form.png)
+![login-form](https://cdn.authing.cn/sdk/guide/image/authing-login-form.png)
 
 ![login-form-wxapp-qrcode](https://cdn.authing.cn/sdk/guide/image/authing-login-form-wx-qrcode.png)
 
