@@ -4,9 +4,9 @@
 
 [点击体验](https://sample.authing.cn)
 
-![cmd-markdown-logo](https://usercontents.authing.cn/authing-demo-login.png)
+![login-form](https://cdn.authing.cn/sdk/guide/image/login-form.png)
 
-![小程序扫码登录实例图片](https://usercontents.authing.cn/wxapp-sacan.png)
+![login-form-wxapp-qrcode](https://cdn.authing.cn/sdk/guide/image/authing-login-form-wx-qrcode.png)
 
 ## 本地运行
 
