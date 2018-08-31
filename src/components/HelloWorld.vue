@@ -1,7 +1,9 @@
 <template>
   <div>
     <div id="authing_login-form"></div>
-    <button v-if="!formShow" @click="displayForm" class="btn btn-primary">显示登录表单</button>
+    <div v-if="!formShow" id="button-wrapper">
+      <button @click="displayForm" class="btn btn-primary simform__actions blue">显示登录表单</button>
+    </div>
   </div>
 </template>
 
@@ -48,5 +50,11 @@ export default {
 
 <style>
 
+  #button-wrapper {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 
 </style>
