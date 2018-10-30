@@ -14,6 +14,13 @@
                 <h1 style="line-height: 2;">
                     {{message}}
                 </h1>
+                <p>
+                    如果你看到这个页面，说明 Authing 已经可以和你的 WebApp 结合使用了。
+                </p>
+                <p>
+                    假如本页面是你的项目中的登录处理页面那么只需要处理以下登录数据就可以分辨出用户身份了！
+                </p>
+                <textarea style="width: 100%;" rows="10">{{userInfo}}</textarea>
                 <p class="help" style="margin-top: 15px;">
                     <a href="/">返回主页</a>
                 </p>
@@ -25,16 +32,16 @@
 </template>
 
 <script>
-
+import jsBeautify from 'js-beautify';
 export default {
 
     data () {
         return {
             message: '验证中...',
-            success:false
+            success:false,
+            userInfo: ''
         }
     },
-
     mounted () {
         let query = this.$route.query;
 
@@ -54,6 +61,7 @@ export default {
             this.message = '登录认证成功';
             try {
                 let data = JSON.parse(query.data);
+                this.userInfo = jsBeautify(JSON.stringify(data));
                 localStorage.setItem('token', data.token);
                 localStorage.setItem('userId', data._id);
                 localStorage.setItem('email', data.email);
